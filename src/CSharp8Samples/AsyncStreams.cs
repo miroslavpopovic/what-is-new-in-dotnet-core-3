@@ -7,18 +7,18 @@ namespace CSharp8
     public class AsyncStreams
     {
         private readonly string[] _conferences = {
-            "NetWork",               
-            "WinDays",               
-            "Weblica",                   
-            "Tarabica",              
-            "NTK",                   
-            "KulenDayz",             
-            "MSCommunity",           
-            "CrisCon",               
-            "Sinergija",             
+            "NetWork",
+            "WinDays",
+            "Weblica",
+            "Tarabica",
+            "NTK",
+            "KulenDayz",
+            "MSCommunity",
+            "CrisCon",
+            "Sinergija",
             "AdvancedTechnologyDays",
-            "Thrive",                
-            "SQLSaturday"            
+            "Thrive",
+            "SQLSaturday"
         };
 
         private async IAsyncEnumerable<string> GetConferencesAsync()
