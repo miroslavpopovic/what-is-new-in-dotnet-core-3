@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorComponentsSample", "sr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaSample", "src\SpaSample\SpaSample.csproj", "{6BA5121A-97E9-4936-9301-B0C64EE679F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerServiceSample", "src\WorkerServiceSample\WorkerServiceSample.csproj", "{14F628E5-CA94-46D3-96CE-3F22868558E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6BA5121A-97E9-4936-9301-B0C64EE679F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BA5121A-97E9-4936-9301-B0C64EE679F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BA5121A-97E9-4936-9301-B0C64EE679F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14F628E5-CA94-46D3-96CE-3F22868558E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F628E5-CA94-46D3-96CE-3F22868558E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F628E5-CA94-46D3-96CE-3F22868558E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F628E5-CA94-46D3-96CE-3F22868558E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
