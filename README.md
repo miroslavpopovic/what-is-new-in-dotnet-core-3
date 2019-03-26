@@ -8,4 +8,4 @@ Make sure you have at least .NET Core 3.0 Preview 3 SDK and Visual Studio 2019 R
 
 ## Download
 
-- TODO
+- [NetWork presentation](network-whats-new-in-dotnet-core-3.0.pptx)
