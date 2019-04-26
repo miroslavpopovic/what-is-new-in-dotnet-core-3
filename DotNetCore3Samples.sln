@@ -9,12 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowsFormsSample", "src\W
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfSample", "src\WpfSample\WpfSample.csproj", "{6BB855AB-4DEC-4B19-9FD1-C9C87238F3F4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerServiceSample", "src\WorkerServiceSample\WorkerServiceSample.csproj", "{14F628E5-CA94-46D3-96CE-3F22868558E2}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcSample.Server", "src\GrpcSample\GrpcSample.Server\GrpcSample.Server.csproj", "{58437BEC-C31F-4EC2-B563-951AAE60FE8A}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcSample.Client", "src\GrpcSample\GrpcSample.Client\GrpcSample.Client.csproj", "{719685A8-1EB0-4BA9-9437-42D0AAFD5FF9}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerSideBlazorSample", "src\ServerSideBlazorSample\ServerSideBlazorSample.csproj", "{E466AD54-2BC7-4959-9316-A80B19E44A0B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaReactSample", "src\SpaReactSample\SpaReactSample.csproj", "{BAD79FDE-002B-40A3-9671-D6103FC9D446}"
@@ -39,18 +33,6 @@ Global
 		{6BB855AB-4DEC-4B19-9FD1-C9C87238F3F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BB855AB-4DEC-4B19-9FD1-C9C87238F3F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BB855AB-4DEC-4B19-9FD1-C9C87238F3F4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{14F628E5-CA94-46D3-96CE-3F22868558E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{14F628E5-CA94-46D3-96CE-3F22868558E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{14F628E5-CA94-46D3-96CE-3F22868558E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{14F628E5-CA94-46D3-96CE-3F22868558E2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{58437BEC-C31F-4EC2-B563-951AAE60FE8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{58437BEC-C31F-4EC2-B563-951AAE60FE8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{58437BEC-C31F-4EC2-B563-951AAE60FE8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{58437BEC-C31F-4EC2-B563-951AAE60FE8A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{719685A8-1EB0-4BA9-9437-42D0AAFD5FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{719685A8-1EB0-4BA9-9437-42D0AAFD5FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{719685A8-1EB0-4BA9-9437-42D0AAFD5FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{719685A8-1EB0-4BA9-9437-42D0AAFD5FF9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E466AD54-2BC7-4959-9316-A80B19E44A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E466AD54-2BC7-4959-9316-A80B19E44A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E466AD54-2BC7-4959-9316-A80B19E44A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
