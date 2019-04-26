@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaReactSample", "src\SpaRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerSample", "src\WorkerSample\WorkerSample.csproj", "{4DB10465-3D89-432D-8E3B-449745FCBF9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcSample.Server", "src\GrpcSample.Server\GrpcSample.Server.csproj", "{8DDCB9B2-D2A1-4707-974F-A10D556CE904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcSample.Client", "src\GrpcSample.Client\GrpcSample.Client.csproj", "{CAD0789C-73AD-4862-BCEC-6F443AAD67B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{4DB10465-3D89-432D-8E3B-449745FCBF9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DB10465-3D89-432D-8E3B-449745FCBF9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DB10465-3D89-432D-8E3B-449745FCBF9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DDCB9B2-D2A1-4707-974F-A10D556CE904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DDCB9B2-D2A1-4707-974F-A10D556CE904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DDCB9B2-D2A1-4707-974F-A10D556CE904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DDCB9B2-D2A1-4707-974F-A10D556CE904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD0789C-73AD-4862-BCEC-6F443AAD67B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD0789C-73AD-4862-BCEC-6F443AAD67B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD0789C-73AD-4862-BCEC-6F443AAD67B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD0789C-73AD-4862-BCEC-6F443AAD67B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
