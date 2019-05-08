@@ -11,13 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfSample", "src\WpfSample\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerSideBlazorSample", "src\ServerSideBlazorSample\ServerSideBlazorSample.csproj", "{E466AD54-2BC7-4959-9316-A80B19E44A0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaReactSample", "src\SpaReactSample\SpaReactSample.csproj", "{BAD79FDE-002B-40A3-9671-D6103FC9D446}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaReactSample", "src\SpaReactSample\SpaReactSample.csproj", "{BAD79FDE-002B-40A3-9671-D6103FC9D446}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerSample", "src\WorkerSample\WorkerSample.csproj", "{4DB10465-3D89-432D-8E3B-449745FCBF9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerSample", "src\WorkerSample\WorkerSample.csproj", "{4DB10465-3D89-432D-8E3B-449745FCBF9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcSample.Server", "src\GrpcSample.Server\GrpcSample.Server.csproj", "{8DDCB9B2-D2A1-4707-974F-A10D556CE904}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcSample.Server", "src\GrpcSample.Server\GrpcSample.Server.csproj", "{8DDCB9B2-D2A1-4707-974F-A10D556CE904}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcSample.Client", "src\GrpcSample.Client\GrpcSample.Client.csproj", "{CAD0789C-73AD-4862-BCEC-6F443AAD67B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcSample.Client", "src\GrpcSample.Client\GrpcSample.Client.csproj", "{CAD0789C-73AD-4862-BCEC-6F443AAD67B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

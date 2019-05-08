@@ -7,12 +7,16 @@
         mc:Ignorable="d"
         Title="WPF sample" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="15*"/>
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="9*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
-        <Label Content="Hello from .NET Core!" HorizontalAlignment="Center" VerticalAlignment="Center"
-               FontSize="40"/>
-        <Button Content="Exit" Grid.Row="1" FontSize="20" Click="ButtonExit_Click"/>
+        <Label Content="Hello from .NET Core!" HorizontalAlignment="Left" VerticalAlignment="Center"
+               FontSize="40" Grid.Column="1" Margin="153.487,0,0,0"/>
+        <Button Content="Exit" Grid.Row="1" FontSize="20" Click="ButtonExit_Click" Grid.ColumnSpan="2" Margin="0,0.364,0,0.04"/>
     </Grid>
 </Window>
