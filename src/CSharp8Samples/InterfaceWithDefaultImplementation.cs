@@ -6,10 +6,15 @@ namespace CSharp8
     {
         void Speak();
 
-        //string GetSpeakerName()
-        //{
-        //    return "John Doe";
-        //}
+        public string GetSpeakerName()
+        {
+            return "John Doe";
+        }
+
+        public static string GetDefaultConference()
+        {
+            return "Build";
+        }
     }
 
     public class ConferenceSpeaker : IConferenceSpeaker
