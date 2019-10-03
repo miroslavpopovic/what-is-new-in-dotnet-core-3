@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowsFormsSample", "src\W
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfSample", "src\WpfSample\WpfSample.csproj", "{6BB855AB-4DEC-4B19-9FD1-C9C87238F3F4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerSideBlazorSample", "src\ServerSideBlazorSample\ServerSideBlazorSample.csproj", "{E466AD54-2BC7-4959-9316-A80B19E44A0B}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaReactSample", "src\SpaReactSample\SpaReactSample.csproj", "{BAD79FDE-002B-40A3-9671-D6103FC9D446}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerSample", "src\WorkerSample\WorkerSample.csproj", "{4DB10465-3D89-432D-8E3B-449745FCBF9B}"
@@ -18,6 +16,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcSample.Server", "src\GrpcSample.Server\GrpcSample.Server.csproj", "{8DDCB9B2-D2A1-4707-974F-A10D556CE904}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcSample.Client", "src\GrpcSample.Client\GrpcSample.Client.csproj", "{CAD0789C-73AD-4862-BCEC-6F443AAD67B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerSample", "src\BlazorServerSample\BlazorServerSample.csproj", "{BE6A5B89-D08F-44B6-BCC0-B69F690F71D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +37,6 @@ Global
 		{6BB855AB-4DEC-4B19-9FD1-C9C87238F3F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BB855AB-4DEC-4B19-9FD1-C9C87238F3F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BB855AB-4DEC-4B19-9FD1-C9C87238F3F4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E466AD54-2BC7-4959-9316-A80B19E44A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E466AD54-2BC7-4959-9316-A80B19E44A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E466AD54-2BC7-4959-9316-A80B19E44A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E466AD54-2BC7-4959-9316-A80B19E44A0B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BAD79FDE-002B-40A3-9671-D6103FC9D446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BAD79FDE-002B-40A3-9671-D6103FC9D446}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAD79FDE-002B-40A3-9671-D6103FC9D446}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -57,6 +53,10 @@ Global
 		{CAD0789C-73AD-4862-BCEC-6F443AAD67B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAD0789C-73AD-4862-BCEC-6F443AAD67B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAD0789C-73AD-4862-BCEC-6F443AAD67B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE6A5B89-D08F-44B6-BCC0-B69F690F71D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE6A5B89-D08F-44B6-BCC0-B69F690F71D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE6A5B89-D08F-44B6-BCC0-B69F690F71D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE6A5B89-D08F-44B6-BCC0-B69F690F71D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
