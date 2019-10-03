@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Greet;
 using Grpc.Core;
+using Grpc.Net.Client;
 
 namespace GrpcSample.Client
 {
@@ -9,16 +9,19 @@ namespace GrpcSample.Client
     {
         static async Task Main(string[] args)
         {
+            // Enable support for unencrypted HTTP2  
+            AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
+
             // The port number here must match the port of the gRPC server
-            var channel = new Channel("localhost:50051", ChannelCredentials.Insecure);
+            var channel = GrpcChannel.ForAddress(
+                "http://localhost:50051", new GrpcChannelOptions {Credentials = ChannelCredentials.Insecure});
+
             var client = new Greeter.GreeterClient(channel);
 
             var reply = await client.SayHelloAsync(
                 new HelloRequest { Name = "GreeterClient" });
+
             Console.WriteLine("Greeting: " + reply.Message);
-
-            await channel.ShutdownAsync();
-
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
         }
