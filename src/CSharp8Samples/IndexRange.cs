@@ -12,7 +12,7 @@ namespace CSharp8
                                              // index      from back
                 "NetWork",                   // 0          ^12
                 "WinDays",                   // 1          ^11
-                "Weblica",                   // 2          ^10     
+                "Weblica",                   // 2          ^10
                 "Tarabica",                  // 3          ^9
                 "NTK",                       // 4          ^8
                 "KulenDayz",                 // 5          ^7
