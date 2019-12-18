@@ -13,3 +13,4 @@ Make sure you have Visual Studio 2019 16.3 installed, or .NET Core 3.0 SDK.
 - [Weblica 2019 presentation](weblica-whats-new-in-dotnet-core-3.0.pptx)
 - [NT konferenca 2019 presentation](ntk-whats-new-in-dotnet-core-3.0.pptx)
 - [Sinergija 19 presentation](sinergija-whats-new-in-dotnet-core-3.0.pptx)
+- [MSCommunity meetup presentation](mscommunity-whats-new-in-dotnet-core-3.x.pptx)
